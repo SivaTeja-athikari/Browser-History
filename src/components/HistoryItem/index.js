@@ -19,7 +19,7 @@ const HistoryItem = props => {
         </div>
       </div>
       <button
-        testid="delete"
+        data-testid="delete"
         type="button"
         className="button"
         onClick={onClickDelete}
